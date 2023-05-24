@@ -15,7 +15,7 @@ As of May 24th, 2023 here are our latest models along with their respective benc
 | YOLOv5-m  |  YOLOv5 |  0.348 |  0.700 | 0.299  |
 | YOLOv7-m  | YOLOv7  | 0.406 |  0.778 | 0.368  |
 
-###Tiled Citrus Detection
+### Tiled Citrus Detection
 | Method | Backbone | AP | AP @ IoU=.50  |  AP @ IoU=.75 |
 |---|---|---|---|---|
 | YOLOS  |  ViT  |  0.324 | 0.707 | 0.246  |
