@@ -65,7 +65,7 @@ TorchVision. Finally, install the remaining packages:
 ### Data Loader
 
 The script ```datasets/coco.py``` contains a COCO dataset class that allows for
-loading images and masks on the fly and extracting bounding boxes and
+loading images and masks on the fly, and extracting bounding boxes and
 segmentation masks. Modify this class accordingly if you need additional inputs
 to your network.
 
