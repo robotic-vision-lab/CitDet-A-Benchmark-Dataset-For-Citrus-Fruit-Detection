@@ -85,8 +85,8 @@ Here are our latest models along with their respective benchmark results.
 | Method | Backbone | AP | AP @ IoU=.50  |  AP @ IoU=.75 |
 |---|---|---|---|---|
 | FasterRCNN  |  ResNet50  |  0.220 | 0.514 | 0.140  |
-| YOLOv5-m  |  YOLOv5 |  0.348 |  0.700 | 0.299  |
-| YOLOv7-m  | YOLOv7  | 0.406 |  0.778 | 0.368  |
+| YOLOv5-m  |  YOLOv5 |  0.348 |  0.700 | 0.298  |
+| YOLOv7-m  | YOLOv7  | 0.406 |  0.779 | 0.369  |
 
 #### Tiled Citrus Detection
 
@@ -95,8 +95,8 @@ Here are our latest models along with their respective benchmark results.
 | YOLOS  |  ViT  |  0.324 | 0.707 | 0.246  |
 | DETR  |  ResNet50 |  0.350 |  0.728 | 0.288  |
 | FasterRCNN  |  ResNet50  |  0.372 | 0.760 | 0.315  |
-| YOLOv5-m  |  YOLOv5 |  0.449 |  0.818 | 0.434  |
-| YOLOv7-m  | YOLOv7  | 0.455  |  0.832 | 0.439  |
+| YOLOv5-m  |  YOLOv5 |  0.449 |  0.819 | 0.434  |
+| YOLOv7-m  | YOLOv7  | 0.455  |  0.831 | 0.439  |
 
 ### CitDet Source Code License
 
