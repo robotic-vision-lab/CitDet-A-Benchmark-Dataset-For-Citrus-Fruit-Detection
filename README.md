@@ -58,7 +58,7 @@ First, begin by cloning the project:
     $ cd CitDet-A-Benchmark-Dataset-For-Citrus-Fruit-Detection
 
 Then, set up a Python 3 environment and install Pytorch (1.0.1 or higher) and
-TorchVision. Finally, install the remaining packages
+TorchVision. Finally, install the remaining packages:
 
     $ pip install Pillow opencv-python sklearn numpy
 
@@ -71,7 +71,7 @@ to your network.
 
 ### Training, Evaluation, and Visualization
 
-To train a network on CitDet first
+To train a network on CitDet, first
 [download](https://dataverse.tdl.org/dataset.xhtml?persistentId=doi:10.18738/T8/QFVHQ5&version=DRAFT)
 the dataset. The notebook ```train_eval_visualize.py``` includes example code
 for training, evaluating, and visualizing the predictions of a detection model.
