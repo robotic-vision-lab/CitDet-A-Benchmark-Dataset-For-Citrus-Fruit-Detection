@@ -50,39 +50,46 @@ dataset.
 }
 ```
 
-## Installation
-* Setup a Python 3 environment
-* Install Pytorch (1.0.1 or higher) and TorchVision
-* Install some other packages:
-```
-# Install necessary packages
-pip install Pillow opencv-python sklearn numpy
-```
-* Clone this repository and enter it
-```
-git clone https://github.com/jjames71396/CitDet.git
-cd CitDet
-```
+### Installation
 
-## Data Loader
-The file ```datasets/coco.py``` contains a coco dataset class that allows loading images and masks on the fly and extract bounding boxes and segmentation masks. Modify this class accordingly if you need additional inputs to your network.
+First, begin by cloning the project:
 
-## Training, Evaluation, and Visualization
-To train a network on the CitDet dataset make sure that you download the dataset first from [here](link).
-The notebook ```train_eval_visualize.py``` includes example code for training, evaluating, and visualizing the predictions of a detection model.
+    $ git clone https://github.com/robotic-vision-lab/CitDet-A-Benchmark-Dataset-For-Citrus-Fruit-Detection.git
+    $ cd CitDet-A-Benchmark-Dataset-For-Citrus-Fruit-Detection
 
+Then, set up a Python 3 environment and install Pytorch (1.0.1 or higher) and
+TorchVision. Finally, install the remaining packages
 
-## Evaluation
-As of May 24th, 2023 here are our latest models along with their respective benchmark results.
+    $ pip install Pillow opencv-python sklearn numpy
 
-### Citrus Detection
+### Data Loader
+
+The script ```datasets/coco.py``` contains a COCO dataset class that allows for
+loading images and masks on the fly and extracting bounding boxes and
+segmentation masks. Modify this class accordingly if you need additional inputs
+to your network.
+
+### Training, Evaluation, and Visualization
+
+To train a network on CitDet first
+[download](https://dataverse.tdl.org/dataset.xhtml?persistentId=doi:10.18738/T8/QFVHQ5&version=DRAFT)
+the dataset. The notebook ```train_eval_visualize.py``` includes example code
+for training, evaluating, and visualizing the predictions of a detection model.
+
+### Evaluation
+
+Here are our latest models along with their respective benchmark results.
+
+#### Citrus Detection
+
 | Method | Backbone | AP | AP @ IoU=.50  |  AP @ IoU=.75 |
 |---|---|---|---|---|
 | FasterRCNN  |  ResNet50  |  0.220 | 0.514 | 0.140  |
 | YOLOv5-m  |  YOLOv5 |  0.348 |  0.700 | 0.299  |
 | YOLOv7-m  | YOLOv7  | 0.406 |  0.778 | 0.368  |
 
-### Tiled Citrus Detection
+#### Tiled Citrus Detection
+
 | Method | Backbone | AP | AP @ IoU=.50  |  AP @ IoU=.75 |
 |---|---|---|---|---|
 | YOLOS  |  ViT  |  0.324 | 0.707 | 0.246  |
@@ -90,5 +97,14 @@ As of May 24th, 2023 here are our latest models along with their respective benc
 | FasterRCNN  |  ResNet50  |  0.372 | 0.760 | 0.315  |
 | YOLOv5-m  |  YOLOv5 |  0.449 |  0.818 | 0.434  |
 | YOLOv7-m  | YOLOv7  | 0.455  |  0.832 | 0.439  |
+
+### CitDet Source Code License
+
+[![license](https://img.shields.io/badge/license-Apache%202-blue)](https://github.com/robotic-vision-lab/CitDet-A-Benchmark-Dataset-For-Citrus-Fruit-Detection/blob/main/LICENSE)
+
+### CitDet Dataset License
+
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
 
 
