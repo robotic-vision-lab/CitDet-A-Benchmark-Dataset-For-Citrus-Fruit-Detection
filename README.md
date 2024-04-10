@@ -80,7 +80,7 @@ for training, evaluating, and visualizing the predictions of a detection model.
 
 Here are our latest models along with their respective benchmark results.
 
-#### Citrus Detection
+#### Whole Image Dataset Results 
 
 | Method | Backbone | AP | AP @ IoU=.50  |  AP @ IoU=.75 |
 |---|---|---|---|---|
@@ -88,7 +88,7 @@ Here are our latest models along with their respective benchmark results.
 | YOLOv5-m  |  YOLOv5 |  0.348 |  0.700 | 0.298  |
 | YOLOv7-m  | YOLOv7  | 0.406 |  0.779 | 0.367  |
 
-#### Tiled Citrus Detection
+#### Tiled Image Dataset Results 
 
 | Method | Backbone | AP | AP @ IoU=.50  |  AP @ IoU=.75 |
 |---|---|---|---|---|
