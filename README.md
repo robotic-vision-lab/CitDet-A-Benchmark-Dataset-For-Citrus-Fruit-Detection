@@ -19,9 +19,9 @@ CitDet dataset contains high-resolution images of citrus trees located in an
 area known to be highly affected by HLB, along with high-quality bounding box
 annotations of citrus fruit. Fruit on both the trees and the ground are labeled
 to allow for identification of fruit location, which contributes to advancements
-in yield estimation and potential measure of HLB impact via fruit drop.  In
+in yield estimation and potential measure of HLB impact via fruit drop. In
 addition, we enhance state-of-the-art object detection methods for use in
-typical orchard settings and provide new benchmarks. 
+typical orchard settings and provide new benchmark results. 
 
 More information on the project can be found on the [CitDet
 website](https://robotic-vision-lab.github.io/citdet).
@@ -78,7 +78,7 @@ for training, evaluating, and visualizing the predictions of a detection model.
 
 ### Evaluation
 
-Here are our latest models along with their respective benchmark results.
+Here are our latest models along with their respective benchmarks.
 
 #### Whole Image Dataset Results 
 
