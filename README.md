@@ -84,7 +84,7 @@ Here are our latest models along with their respective benchmark results.
 
 | Method | Backbone | AP | AP @ IoU=.50  |  AP @ IoU=.75 |
 |---|---|---|---|---|
-| FasterRCNN  |  ResNet50  |  0.220 | 0.514 | 0.140  |
+| FasterRCNN  |  ResNet50  |  0.220 | 0.515 | 0.140  |
 | YOLOv5-m  |  YOLOv5 |  0.348 |  0.700 | 0.298  |
 | YOLOv7-m  | YOLOv7  | 0.406 |  0.779 | 0.367  |
 
