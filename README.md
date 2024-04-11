@@ -32,11 +32,11 @@ If you find this project useful, then please consider citing both our paper and
 dataset.
 
 ```bibitex
-@article{james2023citdet,
+@article{james2024citdet,
   title={CitDet: A Benchmark Dataset for Citrus Fruit Detection},
   author={James, Jordan A and Manching, Heather K and Mattia, Matthew R and Bowman, Kim D and Hulse-Kemp, Amanda M and Beksi, William J},
   journal={arXiv preprint arXiv:2309.05645},
-  year={2023}
+  year={2024}
 }
 
 @data{T8/QFVHQ5_2024,
