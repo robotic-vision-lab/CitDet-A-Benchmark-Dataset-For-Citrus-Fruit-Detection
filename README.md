@@ -72,7 +72,7 @@ to your network.
 ### Training, Evaluation, and Visualization
 
 To train a network on CitDet, first
-[download](https://dataverse.tdl.org/dataset.xhtml?persistentId=doi:10.18738/T8/QFVHQ5&version=DRAFT)
+[download](https://dataverse.tdl.org/dataset.xhtml?persistentId=doi:10.18738/T8/QFVHQ5)
 the dataset. The notebook ```train_eval_visualize.py``` includes example code
 for training, evaluating, and visualizing the predictions of a detection model.
 
