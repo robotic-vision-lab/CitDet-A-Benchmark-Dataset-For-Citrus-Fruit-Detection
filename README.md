@@ -40,13 +40,13 @@ dataset.
   year={2024}
 }
 
-@data{T8/QFVHQ5_2024,
+@data{mavmatrix/dataset.2024.05.005,
   title={{CitDet}},
   author={James, Jordan A and Manching, Heather K and Mattia, Matthew R and Bowman, Kim D and Hulse-Kemp, Amanda M and Beksi, William J},
-  publisher={Texas Data Repository},
+  publisher={MavMatrix},
   version={V1},
-  url={https://doi.org/10.18738/T8/QFVHQ5},
-  doi={10.18738/T8/QFVHQ5},
+  url={https://doi.org/10.32855/dataset.2024.05.005},
+  doi={10.32855/dataset.2024.05.005},
   year={2024}
 }
 ```
