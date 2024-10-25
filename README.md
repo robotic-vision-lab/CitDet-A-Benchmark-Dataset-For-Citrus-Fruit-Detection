@@ -36,7 +36,7 @@ dataset.
   title={CitDet: A Benchmark Dataset for Citrus Fruit Detection},
   author={James, Jordan A and Manching, Heather K and Mattia, Matthew R and Bowman, Kim D and Hulse-Kemp, Amanda M and Beksi, William J},
   journal={IEEE Robotics and Automation Letters (RA-L)},
-  pages={},
+  pages={10788--10795},
   year={2024}
 }
 
