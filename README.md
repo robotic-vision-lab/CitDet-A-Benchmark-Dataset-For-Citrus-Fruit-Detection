@@ -10,7 +10,7 @@ work, particularly involving public datasets of citrus affected by Huanglongbing
 (HLB). 
 
 <p align="center">
-  <img src="images/overview.jpg" width="400">
+  <img src="images/overview.jpg" alt="overview" width="400">
 </p>
 
 This repository provides source code for our paper titled "[CitDet: A Benchmark
